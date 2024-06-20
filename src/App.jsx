@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { CustomCard } from './components/Card/Card';
-import './App.css';
-import { Projects } from './components/Card/products';
-import Footer from "./components/Footer/Footer";
+import { CustomCard } from './Components/Card/Card';
+import './index.css';
+import { Projects } from './Components/Card/products';
+import Footer from './Components/Footer/Footer';
 // import Navbar from "./components/Navbar/Navbar"; // Import the Navbar
 
 const App = () => {
