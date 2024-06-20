@@ -32,7 +32,7 @@ export function CustomCard(props) {
           <StatusTag status={props.status} />
         </div>
         <div className="group mt-4 inline-flex flex-wrap items-center gap-2">
-            <TagTooltip tags={props.tags} onTagClick={props.onTagClick} />
+          <TagTooltip tags={props.tags} onTagClick={props.onTagClick} />
         </div>
       </CardBody>
       <CardFooter className="pt-4">
